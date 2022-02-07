@@ -6,6 +6,8 @@
 
 Very basic app to setup a POSTgres DB and API to access it.
 
+https://jmdesignsioapi.herokuapp.com/test
+
 ## Languages & Technologies
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
