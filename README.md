@@ -30,4 +30,13 @@ npx knex seed:make rsvps
 npx knex migrate:latest  
 npx knex seed:run  
 
+## Deploying
+
+When deploying, do not forget to run the following commands on Heroku console after making changes to migrations or seeds.
+
+knex migrate:latest  
+knex seed:run  
+
+## Documentation
+
 [Knex documentation](https://knexjs.org/#Schema)
