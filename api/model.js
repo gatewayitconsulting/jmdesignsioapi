@@ -1,9 +1,14 @@
 const db = require('../data/db-config');
 
-const findAll = () => {
+const findAllProfiles = () => {
     return db('profiles')
 }
 
+const findAllRSVPS = () => {
+    return db('rsvps')
+}
+
 module.exports = {
-    findAll
+    findAllProfiles,
+    findAllRSVPS
 }

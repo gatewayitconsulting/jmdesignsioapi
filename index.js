@@ -13,7 +13,7 @@ server.use(express.json())
 server.use('/test', testRouter)
 
 server.get('/', (req, res) => {
-    res.send('<h1>This is a test application</h1>')
+    res.send('<h1>404 Page Not Found</h1>')
 })
 
 server.listen(port, () => {

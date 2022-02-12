@@ -24,7 +24,9 @@ https://jmdesignsioapi.herokuapp.com/test
 
 npx knex init  
 npx knex migrate:make first-migration  
+npx knex migrate:make create_rsvp_table  
 npx knex seed:make 001_first-seed  
+npx knex seed:make rsvps  
 npx knex migrate:latest  
 npx knex seed:run  
 
