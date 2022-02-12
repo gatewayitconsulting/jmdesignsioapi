@@ -8,6 +8,7 @@
     "run:seeds": "npx knex seed:run",
     "start": "node index.js",
     "server": "nodemon index.js",
+    "deploy": "git push heroku main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
