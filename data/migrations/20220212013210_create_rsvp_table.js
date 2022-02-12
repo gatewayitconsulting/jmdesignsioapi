@@ -9,6 +9,7 @@ exports.up = (knex) => {
             table.string('guestFirstName', 255);
             table.string('guestLastName', 255);
             table.string('diet', 255);
+            table.string('songRequest', 255);
             table.string('notes', 255);
             table.timestamps();
         });
