@@ -8,7 +8,12 @@ const findAllRSVPS = () => {
     return db('rsvps')
 }
 
+const insertRSVP = (rsvp) => {
+    return db('rsvps').insert(rsvp);
+}
+
 module.exports = {
     findAllProfiles,
-    findAllRSVPS
+    findAllRSVPS,
+    insertRSVP,
 }
